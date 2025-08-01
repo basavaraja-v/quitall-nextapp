@@ -37,48 +37,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily" as const,
       priority: 1.0,
     },
-    {
-      url: `${baseUrl}/about`,
-      lastModified: currentDate,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/features`,
-      lastModified: currentDate,
-      changeFrequency: "weekly" as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/pricing`,
-      lastModified: currentDate,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: currentDate,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: currentDate,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/support`,
-      lastModified: currentDate,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/download`,
-      lastModified: currentDate,
-      changeFrequency: "daily" as const,
-      priority: 0.9,
-    },
+    // {
+    //   url: `${baseUrl}/about`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "monthly" as const,
+    //   priority: 0.8,
+    // },
+    // {
+    //   url: `${baseUrl}/features`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "weekly" as const,
+    //   priority: 0.9,
+    // },
+    // {
+    //   url: `${baseUrl}/pricing`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "weekly" as const,
+    //   priority: 0.8,
+    // },
+    // {
+    //   url: `${baseUrl}/privacy`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "monthly" as const,
+    //   priority: 0.6,
+    // },
+    // {
+    //   url: `${baseUrl}/terms`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "monthly" as const,
+    //   priority: 0.6,
+    // },
+    // {
+    //   url: `${baseUrl}/support`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "weekly" as const,
+    //   priority: 0.7,
+    // },
+    // {
+    //   url: `${baseUrl}/download`,
+    //   lastModified: currentDate,
+    //   changeFrequency: "daily" as const,
+    //   priority: 0.9,
+    // },
   ]
 
   // Habit-specific landing pages (programmatic SEO)
@@ -167,11 +167,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Combine all pages
   return [
     ...mainPages,
-    ...habitPages,
-    ...blogMainPages,
-    ...blogCategoryPages,
-    ...sampleBlogPosts,
-    ...helpPages,
-    ...successPages,
+    // ...habitPages,
+    // ...blogMainPages,
+    // ...blogCategoryPages,
+    // ...sampleBlogPosts,
+    // ...helpPages,
+    // ...successPages,
   ]
 }
