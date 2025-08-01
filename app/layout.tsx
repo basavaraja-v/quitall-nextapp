@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "QuitAll Bad Habits",
     title: "QuitAll - Break Any Bad Habit | #1 Habit Tracker App",
     description:
-      "Join thousands who quit smoking, drinking, phone addiction & more with QuitAll. Track streaks, save money, get insights. Free 7-day trial.",
+      "Join thousands who quit smoking, drinking, phone addiction & more with QuitAll. Track streaks, save money, get insights. Free 3-day trial.",
     images: [
       {
         url: "/images/feature-graphic.png",
