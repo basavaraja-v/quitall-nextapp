@@ -1,0 +1,17 @@
+/* TEAM */
+Developer: QuitAll Development Team
+Contact: dev@quitall.app
+Location: Global
+
+/* SITE */
+Last update: 2024/12/01
+Language: English
+Doctype: HTML5
+IDE: VS Code
+Standards: HTML5, CSS3, JavaScript ES6+, React, Next.js
+Components: Tailwind CSS, shadcn/ui
+Software: Next.js 14, TypeScript, Vercel
+
+/* THANKS */
+Thanks to all the users who shared their habit-breaking journeys
+Special thanks to the open-source community
